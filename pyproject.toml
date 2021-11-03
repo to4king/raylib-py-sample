@@ -1,0 +1,8 @@
+[tool.poetry]
+name = "raylib-py-sample"
+version = "0.1"
+description = "Using raylib and raylib-py sample"
+
+authors = ["to4king<to4king@gmail.com>"]
+
+readme = "README.md"
