@@ -127,3 +127,6 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# vcpkg is dependency manager for raylib
+.vcpkg/
