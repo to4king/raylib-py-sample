@@ -6,3 +6,7 @@ description = "Using raylib and raylib-py sample"
 authors = ["to4king<to4king@gmail.com>"]
 
 readme = "README.md"
+
+[tool.poetry.dependencies]
+
+python = ">=3.4,<4"
