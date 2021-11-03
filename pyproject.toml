@@ -10,3 +10,4 @@ readme = "README.md"
 [tool.poetry.dependencies]
 
 python = ">=3.4,<4"
+raylib-py = "^0.1.1"
