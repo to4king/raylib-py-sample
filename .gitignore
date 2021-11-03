@@ -129,4 +129,4 @@ dmypy.json
 .pyre/
 
 # vcpkg is dependency manager for raylib
-.vcpkg/
+vcpkg/
