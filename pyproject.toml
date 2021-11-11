@@ -1,13 +1,20 @@
 [tool.poetry]
-name = "raylib-py-sample"
-version = "0.1"
+name = "app"
+version = "0.1.0"
 description = "Using raylib and raylib-py sample"
-
-authors = ["to4king<to4king@gmail.com>"]
-
+authors = ["to4king <to4king@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-
-python = ">=3.4,<4"
+python = "^3.9"
 raylib-py = "^0.1.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[tool.poetry.scripts]
+start = "app:main"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
